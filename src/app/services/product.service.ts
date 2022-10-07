@@ -11,9 +11,9 @@ import { ProductCategory } from '../common/product-category';
 export class ProductService {
 
 
-  private baseUrl = 'https://dtshop-backend.herokuapp.com/api/products';
+  private baseUrl = 'http://dtshop-backend.herokuapp.com/api/products';
 
-  private categoryUrl = 'https://dtshop-backend.herokuapp.com/api/product-category';
+  private categoryUrl = 'http://dtshop-backend.herokuapp.com/api/product-category';
 
   constructor(private httpClient: HttpClient) { }
 
