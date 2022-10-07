@@ -13,7 +13,7 @@ export class ProductService {
 
   private baseUrl = 'https://dtshop-backend.herokuapp.com/api/products';
 
-  private categoryUrl = 'http://localhost:8080/api/product-category';
+  private categoryUrl = 'https://dtshop-backend.herokuapp.com/api/product-category';
 
   constructor(private httpClient: HttpClient) { }
 
