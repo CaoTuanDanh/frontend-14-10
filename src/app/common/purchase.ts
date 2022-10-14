@@ -1,7 +1,12 @@
+import { Address } from './address';
+import { Customer } from './customer';
+import { Order } from './order';
+import { OrderItem } from './order-item';
+
 export class Purchase {
-  customer: any;
-  shippingAddress: any;
-  billingAddress: any;
-  order: import("d:/website-datn/03-frontend/angular-ecommerce/src/app/common/order").Order;
-  orderItems: import("d:/website-datn/03-frontend/angular-ecommerce/src/app/common/order-item").OrderItem[];
+    customer: Customer;
+    shippingAddress: Address;
+    billingAddress: Address;
+    order: Order;
+    orderItems: OrderItem[]; 
 }
